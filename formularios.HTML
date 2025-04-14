@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>formularios</h1>
+    <form action="index.js" method="post">
+        <label for="nombreid">Nombre</label>
+        <!--ingresar datos-->
+        <input type="text" name="nombre" id="nombreid">
+
+        <label for="apellidoid">Apellido</label>
+        <input type="text" name="apellido" id="apellidoid">
+
+        <label for="emailid">Email</label>
+        <input type="email" name="Email" id="emailid">
+
+        <label for="passwordid">Contraseña</label>
+        <input type="password" name="Contraseña" id="passwordid">
+
+        <label for="edadid">Edad</label>
+        <input type="number" name="edad" id="edadid" min="0" max="120" required>
+        <!--ingreso de mucho texto-->
+        <label for="mensaje">ingrese un mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="40" rows="10"></textarea>
+        <!--lista de opciones -->
+        <label for="escuderia">Escuderias</label>
+        <select name="escuderia" id="escuderia">
+            <option value="">elegir...</option>
+            <option value="ferrari">Ferrari</option>
+            <option value="mcLaren">mcLaren</option>
+            <option value="hass">Hass</option>
+
+
+        </select>
+
+        <!--submit-->
+        <input type="submit" value="enviar">
+
+        
+
+
+
+
+
+        
+
+
+
+    </form>
+    
+</body>
+</html>
